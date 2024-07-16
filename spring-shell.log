@@ -44,3 +44,15 @@
 1697309668726:status
 1697309903719:convert --from USD --to LK --amount 1
 1721151993963:convert --from USD --to LKR 1
+1721155896153:covert --from USD --to LKR q
+1721155911157:covert --from USD --to LKR 1
+1721155921225:convert --from USD --to LKR q
+1721155938890:onvert --from USD --to LKR 1
+1721155953621:convert --from USD --to LKR 1
+1721156119502:conver --from USD --to LKR 1
+1721156132013:convert --from USD --to LKR 1
+1721156300246:status
+1721156872919:clear
+1721156904528:status
+1721157040387:cls
+1721157042260:clear

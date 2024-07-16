@@ -1,13 +1,10 @@
 package dev.asanga.currencyConverter.commands;
 
-import dev.asanga.currencyConverter.models.APIErrorResponse;
 import dev.asanga.currencyConverter.models.APIResponse;
-import dev.asanga.exceptions.ValidationException;
-import org.springframework.http.HttpStatus;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -19,7 +16,8 @@ public class ExchangeCommands {
 
     private final WebClient webClient;
 
-    private static final String API_KEY ="blah";
+    @Value("${currencyapi.api_key}")
+    private String API_KEY;
 
     public ExchangeCommands(WebClient webClient) {
         this.webClient = webClient;

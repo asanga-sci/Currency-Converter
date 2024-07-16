@@ -19,7 +19,7 @@ public class ExchangeCommands {
 
     private final WebClient webClient;
 
-    private static final String API_KEY ="api_key";
+    private static final String API_KEY ="blah";
 
     public ExchangeCommands(WebClient webClient) {
         this.webClient = webClient;

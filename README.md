@@ -1,2 +1,5 @@
 # Currency-Converter
-Supper simple spring boot shell application to covert currencies
+Super simple spring boot shell application to covert currencies
+
+# usage
+convert --from <from_currency> --to <to_currency> <amount>

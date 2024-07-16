@@ -1,0 +1,46 @@
+1697222682235:help
+1697222685835:convert
+1697222726486:convert --from ABC --to ASD --amount 12
+1697222738144:clear
+1697222750429:quit
+1697223703557:help
+1697223728866:convert --from GBP --to JPY --amount 20
+1697224058062:stacktrace
+1697224233053:convert --from GBP --to JPY --amount 20
+1697224575942:stacktrace
+1697225130804:convert --from GBP --to JPY --amount 20
+1697225147683:stacktrace
+1697225273782:convert --from GBP --to JPY --amount 20
+1697225610163:help
+1697225620097:history
+1697225637716:convert --from GBP --to JPY --amount 20
+1697226471580:convert --from GBP --to JPy --amount 20
+1697226564482:convert --from f --to s --amount 12
+1697226673645:convert
+1697226687917:convert --from --to --amount
+1697226702292:convert --from a --to r --amount 12
+1697301413178:convert --from a --to w --amount 20
+1697301571547:help
+1697301574878:test
+1697303161337:help
+1697303184919:convert --from usd --to thb --amount 1
+1697303216961:convert --from USD --to LKR --amount 1
+1697304879751:convert --from USD --to LKR --to 1
+1697304903338:convert --from USD --to LKR --amount 1
+1697306435740:test
+1697306843289:clear
+1697306927136:test
+1697307967153:hepl
+1697307971212:help
+1697307994253:convert --from USD --to LKR --amount 10
+1697308026115:covert --from USD --to LKR --amount 10
+1697308063471:stacktrace
+1697308236048:convert --from USD --to LKR --amount 10
+1697308382301:convert --from THB --to LKR --amount 1
+1697308395451:convert --from GBP --to LKR --amount 10
+1697308620471:status
+1697308818771:cls
+1697308848203:stacktrace
+1697309668726:status
+1697309903719:convert --from USD --to LK --amount 1
+1721151993963:convert --from USD --to LKR 1
